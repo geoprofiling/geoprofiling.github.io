@@ -13,86 +13,102 @@
 
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 20px;
+            background: #ffffff;
+            color: #333;
+            line-height: 1.6;
+            padding: 40px 20px;
         }
 
         .container {
-            background: white;
-            border-radius: 20px;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-            padding: 60px 40px;
-            max-width: 900px;
-            width: 100%;
-            text-align: center;
+            max-width: 1000px;
+            margin: 0 auto;
         }
 
         h1 {
-            color: #333;
-            font-size: 2.5em;
+            font-size: 2.2em;
             font-weight: 700;
-            margin-bottom: 50px;
-            line-height: 1.3;
-            letter-spacing: -0.5px;
+            text-align: center;
+            margin-bottom: 30px;
+            color: #222;
+            line-height: 1.2;
+        }
+
+        .authors {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #666;
+            font-size: 1em;
         }
 
         .button-container {
             display: flex;
-            gap: 20px;
+            gap: 15px;
             justify-content: center;
             flex-wrap: wrap;
-            margin-top: 40px;
+            margin-bottom: 50px;
         }
 
         .button {
             display: inline-block;
-            padding: 18px 40px;
-            font-size: 1.1em;
-            font-weight: 600;
+            padding: 12px 24px;
+            font-size: 1em;
+            font-weight: 500;
             text-decoration: none;
-            border-radius: 12px;
-            transition: all 0.3s ease;
-            cursor: pointer;
-            border: none;
-            min-width: 200px;
+            border-radius: 4px;
+            transition: all 0.2s ease;
+            border: 2px solid #333;
+            color: #333;
+            background: #fff;
+        }
+
+        .button:hover {
+            background: #333;
+            color: #fff;
+            transform: translateY(-2px);
         }
 
         .button-arxiv {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
+            border-color: #b31b1b;
+            color: #b31b1b;
         }
 
         .button-arxiv:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+            background: #b31b1b;
+            color: #fff;
+        }
+
+        .button-code {
+            border-color: #333;
+            color: #333;
+        }
+
+        .button-code:hover {
+            background: #333;
+            color: #fff;
         }
 
         .button-samples {
-            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-            color: white;
+            border-color: #0066cc;
+            color: #0066cc;
         }
 
         .button-samples:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 10px 25px rgba(245, 87, 108, 0.4);
+            background: #0066cc;
+            color: #fff;
         }
 
         @media (max-width: 768px) {
             h1 {
-                font-size: 1.8em;
-            }
-
-            .container {
-                padding: 40px 30px;
+                font-size: 1.6em;
             }
 
             .button {
                 width: 100%;
-                min-width: unset;
+                max-width: 200px;
+            }
+
+            body {
+                padding: 20px 10px;
             }
         }
     </style>
@@ -100,9 +116,11 @@
 <body>
     <div class="container">
         <h1>Where Do Images Come From? Analyzing Captions to Geographically Profile Vision-Language Datasets</h1>
+        
         <div class="button-container">
-            <a href="#" class="button button-arxiv" onclick="window.location.href='#'; return false;">arXiv</a>
-            <a href="#" class="button button-samples" onclick="window.location.href='#'; return false;">Geo-Profiled Samples</a>
+            <a href="#" class="button button-arxiv">arXiv</a>
+            <a href="#" class="button button-code">Code</a>
+            <a href="#" class="button button-samples">Geo-Profiled Samples</a>
         </div>
     </div>
 </body>
