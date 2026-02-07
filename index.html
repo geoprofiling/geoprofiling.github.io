@@ -50,21 +50,23 @@
 
         .button {
             display: inline-block;
-            padding: 12px 24px;
+            padding: 10px 20px;
             font-size: 1em;
             font-weight: 500;
             text-decoration: none;
-            border-radius: 4px;
+            border-radius: 12px;
             transition: all 0.2s ease;
-            border: 2px solid #333;
+            border: 1.5px solid #333;
             color: #333;
             background: #fff;
+            cursor: pointer;
         }
 
         .button:hover {
             background: #333;
             color: #fff;
-            transform: translateY(-2px);
+            transform: translateY(-1px);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
 
         .button-arxiv {
@@ -75,6 +77,7 @@
         .button-arxiv:hover {
             background: #b31b1b;
             color: #fff;
+            border-color: #b31b1b;
         }
 
         .button-code {
@@ -85,6 +88,7 @@
         .button-code:hover {
             background: #333;
             color: #fff;
+            border-color: #333;
         }
 
         .button-samples {
@@ -95,6 +99,7 @@
         .button-samples:hover {
             background: #0066cc;
             color: #fff;
+            border-color: #0066cc;
         }
 
         @media (max-width: 768px) {
@@ -117,9 +122,13 @@
     <div class="container">
         <h1>Where Do Images Come From? Analyzing Captions to Geographically Profile Vision-Language Datasets</h1>
         
+        <div class="authors">
+            Abhipsa Basu, Yugam Bahl, Kirti Bhagat, Preethi Seshadri, R. Venkatesh Babu, Danish Pruthi
+        </div>
+        
         <div class="button-container">
             <a href="#" class="button button-arxiv">arXiv</a>
-            <a href="#" class="button button-code">Code</a>
+            <a href="https://github.com/abhipsabasu/Extract-Retrieve-Predict" class="button button-code">Code</a>
             <a href="#" class="button button-samples">Geo-Profiled Samples</a>
         </div>
     </div>
