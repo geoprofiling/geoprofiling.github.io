@@ -40,6 +40,28 @@
             font-size: 1em;
         }
 
+        .abstract {
+            max-width: 800px;
+            margin: 0 auto 40px auto;
+            text-align: justify;
+            color: #444;
+            font-size: 1.05em;
+            line-height: 1.8;
+        }
+
+        .figure-container {
+            max-width: 1000px;
+            margin: 0 auto 40px auto;
+            text-align: center;
+        }
+
+        .figure-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
         .button-container {
             display: flex;
             gap: 15px;
@@ -107,6 +129,16 @@
                 font-size: 1.6em;
             }
 
+            .abstract {
+                text-align: left;
+                font-size: 1em;
+                padding: 0 10px;
+            }
+
+            .figure-container {
+                padding: 0 10px;
+            }
+
             .button {
                 width: 100%;
                 max-width: 200px;
@@ -124,6 +156,14 @@
         
         <div class="authors">
             Abhipsa Basu, Yugam Bahl, Kirti Bhagat, Preethi Seshadri, R. Venkatesh Babu, Danish Pruthi
+        </div>
+        
+        <div class="abstract">
+            In this project, we analyze where training images come from by mapping image–caption pairs to countries using location mentions in captions. Studying three widely used datasets (Re-LAION, DataComp1B, and Conceptual Captions) across 20 common visual entities, we find that a small number of high-income countries—primarily the United States, United Kingdom, and Canada—dominate the data, while many regions, especially South America and Africa, are heavily underrepresented.
+        </div>
+        
+        <div class="figure-container">
+            <img src="Figures_paper/world_map.001.jpeg.001.jpeg" alt="World Map showing geographical distribution of images">
         </div>
         
         <div class="button-container">
