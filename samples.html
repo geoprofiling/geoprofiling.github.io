@@ -114,18 +114,60 @@
             max-width: 900px;
             margin: 0 auto;
             padding: 20px 0;
-        }
-
-        .content h2 {
-            font-size: 1.8em;
-            margin-bottom: 20px;
-            color: #222;
+            text-align: center;
         }
 
         .content p {
-            margin-bottom: 20px;
+            margin-bottom: 30px;
             color: #444;
             line-height: 1.8;
+            font-size: 1.05em;
+        }
+
+        .dropdown-container {
+            margin: 30px auto;
+            max-width: 400px;
+        }
+
+        .dropdown-label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: 500;
+            color: #333;
+            font-size: 1em;
+        }
+
+        .entity-dropdown {
+            width: 100%;
+            padding: 12px 16px;
+            font-size: 1em;
+            font-family: inherit;
+            border: 1.5px solid #333;
+            border-radius: 8px;
+            background: #fff;
+            color: #333;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .entity-dropdown:hover {
+            border-color: #0066cc;
+        }
+
+        .entity-dropdown:focus {
+            outline: none;
+            border-color: #0066cc;
+            box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
+        }
+
+        .country-dropdown-container {
+            margin: 30px auto;
+            max-width: 400px;
+            display: none;
+        }
+
+        .country-dropdown-container.show {
+            display: block;
         }
 
         @media (max-width: 768px) {
@@ -169,10 +211,139 @@
         </div>
 
         <div class="content">
-            <h2>Geo-Profiled Samples</h2>
-            <p>This page contains geo-profiled image samples from our analysis. The samples are organized by visual entity and country, showing the geographical distribution of images in vision-language datasets.</p>
-            <p>Content for geo-profiled samples will be added here.</p>
+            <p>Here you can view the images from different entities and countries. To begin, select the entity of your choice.</p>
+            
+            <div class="dropdown-container">
+                <label for="entity-select" class="dropdown-label">Select Entity:</label>
+                <select id="entity-select" class="entity-dropdown">
+                    <option value="">-- Select an entity --</option>
+                    <option value="mountain">Mountain</option>
+                    <option value="hill">Hill</option>
+                    <option value="lake">Lake</option>
+                    <option value="valley">Valley</option>
+                    <option value="island">Island</option>
+                    <option value="shop">Shop</option>
+                    <option value="office">Office</option>
+                    <option value="jewelry">Jewelry</option>
+                    <option value="living room">Living Room</option>
+                    <option value="wedding dress">Wedding Dress</option>
+                </select>
+            </div>
+
+            <div id="country-dropdown-container" class="country-dropdown-container">
+                <label for="country-select" class="dropdown-label">Select Country:</label>
+                <select id="country-select" class="entity-dropdown">
+                    <option value="">-- Loading countries --</option>
+                </select>
+            </div>
         </div>
     </div>
+
+    <script>
+        // CSV parser that handles quoted fields
+        function parseCSVRow(row) {
+            const values = [];
+            let current = '';
+            let inQuotes = false;
+            
+            for (let i = 0; i < row.length; i++) {
+                const char = row[i];
+                const nextChar = row[i + 1];
+                
+                if (char === '"') {
+                    if (inQuotes && nextChar === '"') {
+                        // Escaped quote
+                        current += '"';
+                        i++; // Skip next quote
+                    } else {
+                        // Toggle quote state
+                        inQuotes = !inQuotes;
+                    }
+                } else if (char === ',' && !inQuotes) {
+                    // Field separator
+                    values.push(current.trim());
+                    current = '';
+                } else {
+                    current += char;
+                }
+            }
+            values.push(current.trim()); // Add last field
+            return values;
+        }
+
+        // Parse CSV and extract unique countries
+        function parseCSV(text) {
+            const lines = text.trim().split('\n');
+            if (lines.length < 2) return [];
+            
+            // Get header row
+            const headers = parseCSVRow(lines[0]);
+            const countryColIndex = headers.indexOf('gemini-flash_faiss_country');
+            
+            if (countryColIndex === -1) return [];
+            
+            // Extract countries from data rows
+            const countries = new Set();
+            for (let i = 1; i < lines.length; i++) {
+                const values = parseCSVRow(lines[i]);
+                if (values[countryColIndex]) {
+                    const country = values[countryColIndex].trim();
+                    if (country && country !== 'NULL' && country !== '' && country.toLowerCase() !== 'null') {
+                        countries.add(country);
+                    }
+                }
+            }
+            
+            return Array.from(countries).sort();
+        }
+
+        // Load CSV and populate country dropdown
+        async function loadCountriesForEntity(entity) {
+            const countrySelect = document.getElementById('country-select');
+            const countryContainer = document.getElementById('country-dropdown-container');
+            
+            if (!entity) {
+                countryContainer.classList.remove('show');
+                return;
+            }
+            
+            // Show loading state
+            countryContainer.classList.add('show');
+            countrySelect.innerHTML = '<option value="">-- Loading countries --</option>';
+            
+            try {
+                // Construct CSV filename (handle spaces in entity names)
+                const csvFilename = `${entity}_sampled.csv`;
+                
+                // Fetch the CSV file
+                const response = await fetch(csvFilename);
+                if (!response.ok) {
+                    throw new Error(`Failed to load CSV: ${response.statusText}`);
+                }
+                
+                const csvText = await response.text();
+                const countries = parseCSV(csvText);
+                
+                // Populate dropdown
+                countrySelect.innerHTML = '<option value="">-- Select a country --</option>';
+                countries.forEach(country => {
+                    const option = document.createElement('option');
+                    option.value = country;
+                    option.textContent = country.charAt(0).toUpperCase() + country.slice(1);
+                    countrySelect.appendChild(option);
+                });
+                
+            } catch (error) {
+                console.error('Error loading countries:', error);
+                countrySelect.innerHTML = '<option value="">-- Error loading countries --</option>';
+            }
+        }
+
+        // Event listener for entity selection
+        document.getElementById('entity-select').addEventListener('change', function(e) {
+            const selectedEntity = e.target.value;
+            loadCountriesForEntity(selectedEntity);
+        });
+    </script>
 </body>
 </html>
