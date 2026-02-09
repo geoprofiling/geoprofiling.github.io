@@ -29,11 +29,20 @@ fi
 
 # Clear any cached credentials
 git config --local --unset credential.helper 2>/dev/null || true
+git config --global --unset credential.helper 2>/dev/null || true
 unset GIT_ASKPASS
+
+# Update remote URL to include username (forces correct account)
+echo "Updating remote URL to use geoprofiling username..."
+git remote set-url origin https://geoprofiling@github.com/geoprofiling/geoprofiling.github.io.git
 
 # Push - this should prompt for credentials
 echo ""
 echo "Pushing to GitHub..."
+echo "When prompted:"
+echo "  Username: geoprofiling (should be pre-filled)"
+echo "  Password: <paste your personal access token for geoprofiling account>"
+echo ""
 git push -u origin main
 
 echo ""
