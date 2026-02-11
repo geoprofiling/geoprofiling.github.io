@@ -1,0 +1,251 @@
+id,gemini-flash_faiss_country,svm_1,text
+00010.jsonl.gz-15945473,united states,1,3 Beds - Pacific Landing Apartments at 36125 Creighton Ave in Murrieta CA is a Apartment
+00052.jsonl.gz-13608736,united states,1,2 Beds - Fontenelle Hills at 200 Martin Drive in Bellevue NE is a Apartment
+00087.jsonl.gz-7639704,united states,1,2 Beds - Swiss Colony Apartments at 3075 Park Avenue in Merced CA is a Apartment
+00039.jsonl.gz-18025634,united states,1,3 Beds - Twin Creeks at 11480 Se Sunnyside Rd in Clackamas OR is a Apartment
+00002.jsonl.gz-1938122,united states,1,3 Beds - Marbella at 2500 Herndon Ave in Clovis CA is a Apartment
+00066.jsonl.gz-8140507,united states,1,1 Bed - San Marco Villas at 2000 Villa Dr in Pittsburg CA is a Apartment
+00093.jsonl.gz-15629215,united states,1,1 Bed - Highlands Point Apartments at 2311 Ivy Hill Way in San Ramon CA is a Apartment
+00054.jsonl.gz-10007920,united states,1,1 Bed - Burkart Crossing Apartments at 1021 Stoneridge Dr in Seymour IN is a Apartment
+00118.jsonl.gz-7112016,united states,1,2 Beds - The Brand at 120 W Wilson Avenue in Glendale CA is a Apartment
+00114.jsonl.gz-17079254,united states,1,3 Beds - Bayberry Place at 711 Greenridge Parkway in Brownsburg IN is a Apartment
+00068.jsonl.gz-5392059,united states,1,2 Beds - Wesley Hampstead at 2770 Skyview Dr in Lithia Springs GA is a Apartment
+00091.jsonl.gz-7171826,united states,1,1 Bed - Springhouse Apartments at 8400 Tapestry Cir in Louisville KY is a Apartment
+00096.jsonl.gz-666384,united states,1,2 Beds - Metropolis at 2100 Sullivan in Irvine CA is a Apartment
+00117.jsonl.gz-17577341,united states,1,2 Beds - Heights at Harper's Preserve at 17116 Harpers Trace in Conroe TX is a Apartment
+00039.jsonl.gz-1080471,united states,1,Apartment In Renton WA | Springbrook Apartments
+00061.jsonl.gz-9468399,united states,1,2 Beds - Bethlehem Terrace Apartments at 47 Meadowbrook Dr in Slingerlands NY is a Apartment
+00010.jsonl.gz-11212275,united states,1,"BJ's Nest~Tranquil Studio Apartment Retreat, w/Hot Tub.  Close To Downtown Napa."
+00115.jsonl.gz-1560065,united states,1,"The Heatherstone Apartment complex in east Kennewick is undergoing a large remodel that will update all 455 units, thanks to a $19.8 million investment. New owners spent $41.6 million recently to buy the affordable housing complex that spans nearly 25 acres near Park Middle School. (Courtesy Security Properties Inc.)"
+00125.jsonl.gz-13335318,united states,1,1 Bed - The Tides at Lakeshore East Apartments at 360 E South Water St in Chicago IL is a Apartment
+00004.jsonl.gz-3957555,united states,1,"LUXURY 1BR APARTMENT l ENTERTAINMENT FREE PARK, vacation rental in Columbus"
+00052.jsonl.gz-16822936,united states,1,3 Beds - Treehouse Apartments at 5701 Pony Farm Dr in Richmond VA is a Apartment
+00109.jsonl.gz-10920969,united states,1,2 Beds - Mandalay Bay at 6650 S Sandhill Rd in Las Vegas NV is a Apartment
+00082.jsonl.gz-5588502,united states,1,3 Beds - Amber Ridge at 2421 Foothill in La Verne CA is a Apartment
+00008.jsonl.gz-15773134,united states,1,2 Beds - The Reserve at 4S Ranch at 10411 Reserve Dr in San Diego CA is a Apartment
+00024.jsonl.gz-6640044,united states,1,3 Beds - Fox Hills at 8783 Ferndale Road in Dallas TX is a Apartment
+00048.jsonl.gz-3092196,canada,1,Sunny Apartment In Quartiers Des Spectacles !!! photos Exterior
+00092.jsonl.gz-16668818,canada,1,"Campbell River Apartment for rent, click for more details..."
+00050.jsonl.gz-843157,canada,1,Cozy 1 Bedroom  Apartment. Great for explorers! - Toronto - Apartment
+00055.jsonl.gz-8430605,canada,1,Main Photo: 105 101 Nursery Hill Drive in VICTORIA: VR Six Mile Condo Apartment for sale (View Royal)  : MLS(r) # 308577
+00056.jsonl.gz-15654799,canada,1,"Condo Apartment at 907 7888 SABA ROAD, Unit 907, Richmond, British Columbia. Image 7"
+00123.jsonl.gz-14844789,canada,1,"Apartment for sale in No address available, Toronto, Ontario, M2J1M6"
+00025.jsonl.gz-6078439,canada,1,"Apartment for rent in 539 Armstrong Road, Kingston, Ontario, K7M 9B2"
+00031.jsonl.gz-979963,canada,1,Photo 10: 502 626 14 Avenue SW in Calgary: Beltline Apartment for sale : MLS®# A1052967
+00054.jsonl.gz-3490176,canada,1,Photo 10: 101 824 10 Street NW in Calgary: Sunnyside Apartment for sale : MLS®# A1093356
+00042.jsonl.gz-13428341,canada,1,Photo 12: 310 777 3 Avenue SW in Calgary: Eau Claire Apartment for sale : MLS®# A1075856
+00044.jsonl.gz-951298,canada,1,"Condo Apartment at 903 8081 WESTMINSTER HIGHWAY, Unit 903, Richmond, British Columbia. Image 11"
+00064.jsonl.gz-7076103,canada,1,"Unfurnished 1 Bedroom Apartment For Rent at Block 100 in Vancouver. 911A - 111 East 1st Avenue, Vancouver, BC, Canada."
+00020.jsonl.gz-9039002,canada,1,"Calgary Apartment for rent, click for more details..."
+00087.jsonl.gz-1388735,canada,1,Vancouver Opus 1BR Business Apartment
+00008.jsonl.gz-4608451,canada,1,"Condo Apartment at 2051 38 SMITHE STREET, Unit 2051, Vancouver West, British Columbia. Image 5"
+00005.jsonl.gz-13579206,canada,1,Photo 1: 112 505 Spring Creek Drive: Canmore Apartment for sale : MLS®# A1059035
+00123.jsonl.gz-9410233,canada,1,Parkallen (Edmonton) Lowrise Apartment for sale:  2 bedroom 961.01 sq.ft. (Listed 2021-03-27)
+00017.jsonl.gz-3472461,canada,1,"2 Bedroom Unfurnished Apartment For Rent at Dolce in Downtown Vancouver. 1107 - 535 Smithe Street, Vancouver, BC, Canada."
+00115.jsonl.gz-13727820,canada,1,"Furnished 1 Bed Apartment Rental at City View Terraces in East Vancouver. 303 - 1718 Venables Street, Vancouver, BC, Canada."
+00067.jsonl.gz-146060,canada,1,Photo 6: 236 10 Discovery Ridge Close SW in Calgary: Discovery Ridge Apartment for sale : MLS®# C4302410
+00022.jsonl.gz-2624200,canada,1,Photo 6: 8329 304 MACKENZIE Way SW: Airdrie Apartment for sale : MLS®# A1128736
+00010.jsonl.gz-5891705,canada,1,Photo 11: 207 707 Spring Creek Drive: Canmore Apartment for sale : MLS®# A1091740
+00081.jsonl.gz-13587953,canada,1,"Unfurnished 2 Bed & Solarium Apartment Rental at The Donovan in Yaletown, Vancouver. 1609 - 1055 Richards Street, Vancouver, BC, Canada."
+00014.jsonl.gz-8098786,canada,1,"206-2355 Trinity Street, Vancouver - Hastings Apartment/Condo for sale, 2 Bedrooms (R2219768) #3"
+00112.jsonl.gz-10171546,canada,1,"1 Bedroom & Den Unfurnished Apartment Rental at TV Towers in Downtown Vancouver. 905 - 233 Robson Street, Vancouver, BC, Canada."
+00084.jsonl.gz-5186337,india,1,Gallery Cover Image of 1100 Sq.ft 2 BHK Apartment for rent in Virar West for 9000
+00118.jsonl.gz-14374456,india,1,"630 sqft, 1 bhk Apartment in Builder Project Niranjanpur, Indore at Rs. 17.0000 Lacs"
+00101.jsonl.gz-13575189,india,1,"1588 sqft, 3 bhk Apartment in Mona City Sector 115 Mohali, Mohali at Rs. 34.5000 Lacs"
+00063.jsonl.gz-7711196,india,1,Gallery Cover Image of 1335 Sq.ft 3 BHK Apartment for rent in Noida Extension for 9000
+00009.jsonl.gz-9639868,india,1,"1600 sqft, 3 bhk Apartment in Builder Project Jopling Road, Lucknow at Rs. 22000"
+00032.jsonl.gz-5991353,india,1,"residential apartment, pune, baner, image"
+00029.jsonl.gz-6101705,india,1,"948 sqft, 2 bhk Apartment in Someshwar Someshwar Vista Kulshekar, Mangalore at Rs. 33.1800 Lacs"
+00069.jsonl.gz-11259525,india,1,"Gallery Cover Image of 600 Sq.ft 1 BHK Apartment for rent in Sarovar, Powai for 23000"
+00073.jsonl.gz-15192501,india,1,Gallery Cover Image of 530 Sq.ft 1 BHK Apartment for rent in Virar West for 7000
+00021.jsonl.gz-15751460,india,1,Gallery Cover Image of 525 Sq.ft 1 BHK Apartment for buy in Madipakkam for 1900000
+00119.jsonl.gz-10944503,india,1,"500 sqft, 1 bhk Apartment in Builder Project Chattarpur, Delhi at Rs. 12000"
+00014.jsonl.gz-7537098,india,1,3 BHK Apartment for Rent in Vasna-Bhayli-Road
+00022.jsonl.gz-11689737,india,1,Gallery Cover Image of 900 Sq.ft 2 BHK Apartment for rent in Powai for 41000
+00063.jsonl.gz-10402657,india,1,"Gallery Cover Image of 585 Sq.ft 1 RK Apartment for rent in Supertech Czar Suites, Omicron I Greater Noida for 10000"
+00034.jsonl.gz-18082423,india,1,2 Bhk Flat Apartment In Gala Celestia Sardar Patel Ring Road Ahmedabad 1115 Sq Ft 36 79 Lakhs Homeonline
+00025.jsonl.gz-14461039,india,1,Gallery Cover Image of 400 Sq.ft 1 BHK Apartment for buy in Dahisar West for 3500000
+00084.jsonl.gz-4514189,india,1,Union Park Dining Room 3 Bhk Exclusive Apartment For Rent In Union Park Khar West
+00064.jsonl.gz-10293715,india,1,"250 sqft, 1 bhk Apartment in Builder Project Vijay Nagar, Indore at Rs. 12000"
+00019.jsonl.gz-9878641,india,1,Gallery Cover Image of 1094 Sq.ft 2 BHK Apartment for rent in Chokkanahalli for 23000
+00120.jsonl.gz-15662161,india,1,"1006 sqft, 2 bhk Apartment in OM Tropica Ravet, Pune at Rs. 55.0000 Lacs"
+00026.jsonl.gz-18038144,india,1,"residential apartment, delhi-ncr, sector-88a, image"
+00086.jsonl.gz-11462495,india,1,Gallery Cover Image of 850 Sq.ft 2 BHK Apartment for rent in Andheri East for 12800
+00080.jsonl.gz-13666749,india,1,Gallery Cover Image of 625 Sq.ft 1 BHK Apartment for rent in Hadapsar for 13000
+00059.jsonl.gz-3033484,india,1,We are happy to deliver the registered sale deed and documents to Col. Basheer in behalf of Mr. Sibu Siddique (fairdale villa16).  #Kerala #Kochi #India #Kottayam #Architecture #Home #Construction #City #Elegance #Environment #Elegant #Building #Beauty #B (nucleusproperties) Tags: life city india building home nature beautiful beauty architecture design living construction realestate view apartment interior gorgeous lifestyle style atmosphere kerala villa environment elegant exquisite comfort luxury kochi elegance kottayam
+00075.jsonl.gz-15086145,india,1,"Gallery Cover Image of 750 Sq.ft 2 BHK Apartment for rent in The TCG Panorama Phase II Bldg B, Ambegaon Budruk for 11500"
+00059.jsonl.gz-1310992,barbados,1,Charming authentic Bajan apartment
+00077.jsonl.gz-1802378,barbados,1,"Apartment in Barbados, Silver Sands: Seawinds - Outside View"
+00091.jsonl.gz-14552631,barbados,1,Speightstown Barbados Vacation Rentals - Apartment
+00075.jsonl.gz-17971049,barbados,1,Christ Church Barbados Vacation Rentals - Apartment
+00089.jsonl.gz-14894938,barbados,1,showcasing a holiday rental apartment at clearwater apartments barbados
+00046.jsonl.gz-17142724,barbados,1,Leith Court Apartment Barbados |Barbados tailor-made holidays
+00019.jsonl.gz-8894728,barbados,1,Christ Church Barbados Vacation Rentals - Apartment
+00042.jsonl.gz-10098491,barbados,1,Stunning 4 Bed Penthouse Apartment - Private Pool - Image 1 - Paynes Bay - rentals
+00094.jsonl.gz-14042831,barbados,1,"Classic 3 bedroom apartment, located on the fabulous Dover Beach, close to restaurants. Fully equipped kitchen - Dover vacation rentals"
+00007.jsonl.gz-7198597,barbados,1,Three-Bedroom Apartment Villa Riana Barbados
+00006.jsonl.gz-14607296,barbados,1,"Apartment in Barbados, Maxwell: Picture 1"
+00072.jsonl.gz-12131966,barbados,1,"Rockley Golf Resort, Barbados - Studio apartment"
+00006.jsonl.gz-5476855,barbados,1,"Thumbnail 1 bed apartment for sale in Sundance Apartment 2, Poui Avenue, Holetown"
+00079.jsonl.gz-17233232,barbados,1,"Apartment in Barbados, Fitts Village: Exterior photo showing entranceway."
+00111.jsonl.gz-8703978,barbados,1,luxury open floor plans 4 bedroom luxury apartment floor 3d plan beach houses barbados 3d
+00005.jsonl.gz-4964811,barbados,1,"Thumbnail 4 bed apartment for sale in 4-Bed Penthouse, Saint Peter's Bay, Barbados"
+00039.jsonl.gz-9331367,barbados,1,"Pauschalreise Hotel Barbados, Barbados, Worthing Court Apartment Hotel in Christ Church  ab Flughafen"
+00038.jsonl.gz-16174570,barbados,1,Cozy Apartment sleeps 4 - Barbados Vacation Rental Rockley Golf Resort
+00071.jsonl.gz-4499432,barbados,1,Fully furnished apartment for rent in Warrens
+00023.jsonl.gz-5504699,barbados,1,"WEST COAST APARTMENT ELEVATED LOCATION WITH POOL, holiday rental in Saint James Parish"
+00004.jsonl.gz-8050840,barbados,1,"EcoFriendly Exquisite Humming Bird Apartment, vacation rental in Bridgetown"
+00051.jsonl.gz-4452537,barbados,1,3 Bedroom Beachfront Apartment in Paynes Bay - Image 1 - Paynes Bay - rentals
+00010.jsonl.gz-8722463,barbados,1,Ashanti Complex - Sea View Apartment - Gibbes vacation rentals
+00000.jsonl.gz-17345510,barbados,1,"Apartment in Maxwell, Barbados: Pool at night"
+00025.jsonl.gz-4183781,barbados,1,"Ground Floor Apartment, Heywoods Park, Barbados - Douglas - Appartement"
+00114.jsonl.gz-2122436,united arab emirates,1,"2 Bedroom Apartment for Rent in Al Reem Island, Abu Dhabi - 3 Master with Maid room 13 Months with Balcony"
+00026.jsonl.gz-12384476,united arab emirates,1,"3 Bedrooms Apartment for sale in Serenia Residences The Palm, Dubai Serenia Residences East"
+00016.jsonl.gz-2893193,united arab emirates,1,Ad Photo: Apartment 1 bedroom 1 bath 460 sqft extra super lux in Dubai Land  Dubai
+00124.jsonl.gz-7375047,united arab emirates,1,Dubai Stay - Marina Quays Apartment
+00087.jsonl.gz-6986879,united arab emirates,1,"1 Bedroom Apartment for rent in The Onyx Towers, Dubai The Onyx Tower 2"
+00046.jsonl.gz-10816912,united arab emirates,1,1 Bedroom Apartment in Mag 5 (b2 Tower)-photo @index
+00016.jsonl.gz-57095,united arab emirates,1,2 Bedroom Apartment in The address dubai mall-photo @index
+00127.jsonl.gz-3956421,united arab emirates,1,"2 Bedrooms Apartment for sale in The Lofts, Dubai The Lofts West"
+00026.jsonl.gz-15940997,united arab emirates,1,"1 Bedroom Apartment for sale in Bluewaters Residences, Dubai Apartment Building 5"
+00005.jsonl.gz-2239499,united arab emirates,1,"1 Bedroom Apartment for Rent in Palm Jumeirah, Dubai - Community view / Vacant on 15th Oct"
+00096.jsonl.gz-13807972,united arab emirates,1,13 Sharing Allowed | Very Large Apartment | Best Location in Deira
+00014.jsonl.gz-11888088,united arab emirates,1,"1 Bedroom Hotel Apartment For Rent in  Sheraton Grand Hotel,  Sheikh Zayed Road | 6"
+00005.jsonl.gz-573187,united arab emirates,1,"Studio for Sale in Downtown Dubai, Dubai - Studio Apartment for Sale in 29 Boulevard with Community View"
+00095.jsonl.gz-4148763,united arab emirates,1,Fully Furnished 1 Bedroom Hotel Apartment Near Dubai Mall
+00015.jsonl.gz-6919965,united arab emirates,1,"Apartment for Sale at Extraordinary Penthouse Dubai, United Arab Emirates"
+00013.jsonl.gz-10481810,united arab emirates,1,"3 Bedroom Hotel Apartment for Sale in Downtown Dubai, Dubai - Burj and Fountain View|Resale below OP|Motivated"
+00094.jsonl.gz-3097816,united arab emirates,1,Apartment for Sale in Building 22 - City Walk
+00027.jsonl.gz-13810277,united arab emirates,1,"3 Bedroom Apartment for Rent in Palm Jumeirah, Dubai - Golden Mile 9 | Park View | 3 B / R"
+00002.jsonl.gz-12966603,united arab emirates,1,"1 Bedroom Apartment for Sale in Al Nuaimiya, Ajman - Pay Minimum Down Payment And Become The Owner of One Bedroom Apartment"
+00061.jsonl.gz-6283410,united arab emirates,1,Brand New 3 BHK Apartment w/ Free Parking Muroor
+00021.jsonl.gz-8227916,united arab emirates,1,"1 Bedroom Apartment for Rent in Downtown Dubai, Dubai - Luxury 1 Bedroom | Downtown | City View"
+00106.jsonl.gz-10846269,united arab emirates,1,"2 Bedrooms Apartment for sale in , Sharjah Azure Beach Residences"
+00086.jsonl.gz-11547261,united arab emirates,1,"Unavailable Apartment in The Address Residence The Blvd, Downtown Dubai"
+00056.jsonl.gz-7728599,united arab emirates,1,HOT DEAL!!! HURRY!!! LUXURIOUS 2BHK APARTMENT @46K IN DUBAILAND
+00027.jsonl.gz-13321915,united arab emirates,1,Apartment for Rent in API TECOM Residency - Barsha Heights (Tecom)
+00062.jsonl.gz-6397082,italy,1,"Spacious apartment in Rome with Lift, Internet,... Slide-3"
+00117.jsonl.gz-4863784,italy,1,Rent an apartment in Albenga without intermediaries Economy class
+00083.jsonl.gz-3243925,italy,1,"Additional photo for property listing at Design apartment in Florence Via Lorenzo il Magnifico Firenze, Florence 50129 Italien"
+00070.jsonl.gz-92726,italy,1,Apartment for Sale to Macerata
+00002.jsonl.gz-17843385,italy,1,"Apartment Three Ambra, accommodation Sardinia holiday"
+00077.jsonl.gz-13093200,italy,1,Terrace apartment w/ view of St. Mark's Basilica & bell tower! Walk everywhere!
+00011.jsonl.gz-15624384,italy,1,Holiday apartment with  balcony and parking - Ravello vacation rentals
+00016.jsonl.gz-12332174,italy,1,Village vacation apartment in Volpaia
+00103.jsonl.gz-17837486,italy,1,Charming apartment for 5 in Le Marche countryside with shared pool
+00017.jsonl.gz-4403271,italy,1,"2 bedroom in Florence Tuscany apartment and swimming Pool 129 - TFR63, Montaione"
+00048.jsonl.gz-8011887,italy,1,Rome Apartment Near the Spanish Steps - Piazza di Spagna
+00089.jsonl.gz-16082062,italy,1,Holiday apartment with 2 bedrooms on 60m² in Scalo dei Saraceni
+00018.jsonl.gz-3043864,italy,1,See the photo  of the apartment 0 PUCCINI BS
+00039.jsonl.gz-15510061,italy,1,"Additional photo for property listing at Gorgeous apartment in historical Palazzo Via Principe Amedeo Torino, Turin 10123 Italien"
+00003.jsonl.gz-15740542,italy,1,"Casanova Apartment,  a 3 minute walking to Rialto and 8 minutes to San Marco also near to Fondamenta Nuove. - Venice vacation rentals"
+00000.jsonl.gz-16736080,italy,1,"Apartment for sale in Ponticelli, Santa Maria a Monte (PI)"
+00075.jsonl.gz-2757062,italy,1,"Private room in the apartment - hotel, Monolocale (96483), 003"
+00112.jsonl.gz-11015670,italy,1,"accommodation in florence, lodging in florence, hotels in florence, apartment in florence"
+00074.jsonl.gz-10838082,italy,1,Cozy  apartment near Metro A zona Battistini / Gemelli
+00075.jsonl.gz-4633226,italy,1,Renovated apartment / office for sale in the center of Verbania
+00056.jsonl.gz-12547147,italy,1,Communal pool - 2 bedroom apartment with pool near Stresa BFY13543 - Meina - rentals
+00127.jsonl.gz-13123445,italy,1,"Windows in a colorful apartment building in Burano, Venice, Italy. Italy. Windows in a colorful apartment building in Burano, Venice Stock Photos"
+00012.jsonl.gz-6183515,italy,1,Cosy apartment for 2 people in beautiful stone house near Apecchio in Le Marche
+00006.jsonl.gz-14188366,italy,1,Apartment Flaminio
+00033.jsonl.gz-3565023,italy,1,San Polo In Chianti Apartment Sleeps 6 T241323 photos Exterior
+00032.jsonl.gz-11910055,lebanon,1,"Apartment for rent in Sassine, Beirut"
+00104.jsonl.gz-1518773,lebanon,1,Apartment in Fanar - Apartment for rent in Fanar SKY406
+00071.jsonl.gz-9365137,lebanon,1,Panoramic View Apartment For Sale In Beit Mery
+00115.jsonl.gz-5344648,lebanon,1,Apartments in Saida - apartment to rent
+00032.jsonl.gz-10819577,lebanon,1,Apartments in Adma - Apartment For Sale in a Gated Community of Adma
+00010.jsonl.gz-14411937,lebanon,1,Second Floor  apartment for sale with 3 rooms - Tripoli city Hay Demsheq
+00074.jsonl.gz-8100111,lebanon,1,"Apartment for rent in Sanayeh, Beirut"
+00073.jsonl.gz-7312643,lebanon,1,Apartments in Achrafieh - Furnished Apartment for Rent in Achrafieh
+00108.jsonl.gz-2124623,lebanon,1,"Apartments in Loueizeh - L05870 - Pay in LBP at 1,500 Apartment for Sale in Kahale"
+00070.jsonl.gz-4424415,lebanon,1,Apartment For Sale in Jbeil Sea Road 1 min Walk To The Beach
+00125.jsonl.gz-5148224,lebanon,1,"Apartment for Rent, Ras Beirut, 460 sqm,  60,000 USD"
+00049.jsonl.gz-17523766,lebanon,1,"Furnished Apartment For Rent in Al Mina, Tripoli"
+00046.jsonl.gz-3234683,lebanon,1,10 elegant and modern home design ideas by Kelly Hoppen Stunning Apartment Beirut2 Kelly Hoppen 10 elegant and modern home design ideas by Kelly Hoppen 10 elegant and modern home design ideas by Kelly Hoppen Stunning Apartment Beirut2
+00084.jsonl.gz-11920359,lebanon,1,Apartment 200sqm for rent in Achrafieh Shahrouri new building
+00103.jsonl.gz-11387844,lebanon,1,Residence 1111-Fabulous family home - Mansouriyeh - Apartment
+00019.jsonl.gz-12674770,lebanon,1,210sqm Apartment for Sale in Atchaneh – BEIT MISK
+00060.jsonl.gz-9927423,lebanon,1,7098 Apartment For Rent in Mar Mikhael Beirut
+00005.jsonl.gz-7380461,lebanon,1,Appartements dans Dbayeh - L05859 1-Bedroom Apartment for Sale in Waterfront Dbayeh
+00068.jsonl.gz-12458580,lebanon,1,"apartment for Sale, Ras Beirut, 1,650,000 USD"
+00094.jsonl.gz-1940206,lebanon,1,Apartments in Hosrayel - Apartment with Garden for Sale in Hosrayel : L05826
+00024.jsonl.gz-16445888,lebanon,1,1601 Apartment For Rent in Gemmayze Beirut
+00050.jsonl.gz-349706,lebanon,1,Ain el Mraysseh apartment for sale
+00024.jsonl.gz-7515623,lebanon,1,"Apartment for Rent, Ashrafieh, 160 sqm,  35,000 USD"
+00092.jsonl.gz-1056099,lebanon,1,Apartments in Sanayeh - New 200 m2 Apartment in Sanayeh Spears
+00084.jsonl.gz-7756863,lebanon,1,"Furnished Spacious Apartment for sale in Hazmieh, Beirut"
+00051.jsonl.gz-15459508,france,1,Marais District - Spacious 1200 sq ft Apartment - Image 1 - 4th Arrondissement Hôtel-de-Ville - rentals
+00058.jsonl.gz-12221431,france,1,Rent in ski resort 5 room apartment 8 people (Exclusive) - Résidence Chalet des Neiges Koh-I Nor - Val Thorens - Apartment
+00051.jsonl.gz-1031853,france,1,"Paris flat for rent 2 bedroom apartment rental, convention"
+00087.jsonl.gz-6172700,france,1,design for small apartments minimalist interior design for small apartment with many rooms menuires ski resort home
+00053.jsonl.gz-15595802,france,1,"3 bedroom Apartment in Fréjus, Provence-Alpes-Côte d'Azur, France : ref 5627433"
+00112.jsonl.gz-851416,france,1,Rent in ski resort 2 room apartment sleeping corner 6 people (2P03) - Résidence les Espaces - Samoëns
+00104.jsonl.gz-12078518,france,1,Sale Apartment - Nice
+00037.jsonl.gz-8295476,france,1,Let this Paris Hotel Inspire Your Bedroom (or Your Wildest Dreams) | Apartment Therapy
+00088.jsonl.gz-283502,france,1,Comfortable apartment in Saint-Jean-Cap-Ferrat
+00042.jsonl.gz-4355775,france,1,Apartment Paris 75006  -  ref 4723349 (picture 3)
+00008.jsonl.gz-15660169,france,1,Rental apartment Paris 17ème 2 900€ CC - Picture 4
+00110.jsonl.gz-16829132,france,1,"Monsigny V Serviced Apartment, Opera"
+00006.jsonl.gz-10757734,france,1,Renting Apartment 2 rooms 43m² Fonsorbes (31470) - Photo 5
+00002.jsonl.gz-10903009,france,1,Sale Apartment - Cannes
+00042.jsonl.gz-5262527,france,1,"Versailles - France - Apartment, 5 rooms, 3 bedrooms - Slideshow Picture 1"
+00059.jsonl.gz-3539841,france,1,Ocean view Hossegor apartment for surfers
+00027.jsonl.gz-5900000,france,1,Sale apartment Taninges 289 000€ - Picture 3
+00106.jsonl.gz-5699957,france,1,Sale Apartment - Auron Riou
+00090.jsonl.gz-11478460,france,1,A view of the architect's apartment from afar in Nice France
+00055.jsonl.gz-12198447,france,1,Life annuity apartment Catus 72 500€ - Picture 9
+00067.jsonl.gz-5468570,france,1,"Charming Studio Apartment For Rent In Montmartre, Paris 18"
+00087.jsonl.gz-14253121,france,1,Live like a true Parisian staying in a fabulously-located apartment in the 9th arrondissement at...
+00014.jsonl.gz-1613775,france,1,Sale apartment Domont 149 000€ - Picture 10
+00042.jsonl.gz-427482,france,1,Luxury apartment in Antibes by Home Hunts
+00040.jsonl.gz-10732321,france,1,Patchwork : Apartment near Lyon 2e Arrondissement
+00118.jsonl.gz-9735837,thailand,1,2 bdr Serviced apartment for short-term rental  Bangkok - Prakanong
+00011.jsonl.gz-6843110,thailand,1,"Life @ Ladprao 18 – Bangkok apartment for rent, 16k"
+00098.jsonl.gz-13076685,thailand,1,The Star Apartment Rangsit รูปที่ 1
+00053.jsonl.gz-2568204,thailand,1,Sammakorn Apartment Modern Spacious 3 Bed 2 Bath in Sammakorn Village to Rent
+00060.jsonl.gz-3800924,thailand,1,"Apartment in Thailand, Phuket: Exterior"
+00099.jsonl.gz-7921637,thailand,1,"For Sale Apartment Complex 76 rooms in Pluak Daeng, Rayong, Thailand | Ref. TH-GKXMMHVI"
+00041.jsonl.gz-17387033,thailand,1,Apartment in Sathorn
+00089.jsonl.gz-7725977,thailand,1,Apartment close to beach and mall in Patong center
+00011.jsonl.gz-14937208,thailand,1,"Amazing Properties Agency's Insaf Towers Nana, 2 bedroom Apartment Sukhumvit 11"
+00039.jsonl.gz-10769596,thailand,1,Photo Phuket- Sea View Apartment building for sale in Patong Beach
+00068.jsonl.gz-9513233,thailand,1,Inviting Two bedroom apartment for Rent in Phra Khanong
+00033.jsonl.gz-2328175,thailand,1,Photo Phuket modern studio apartment for sale in Kathu
+00040.jsonl.gz-3502271,thailand,1,"Pattaya, Apartment - 27 sq.m.; Sale price - 2.160.000 THB; Arcadia Millennium Tower"
+00012.jsonl.gz-1307225,thailand,1,Pintree service apartment pattaya (15)
+00016.jsonl.gz-6414118,thailand,1,"Thumbnail 2 bed apartment for sale in Rawai, Mueang Phuket, Southern Thailand"
+00076.jsonl.gz-14700063,thailand,1,Spacious 2-Bed Apartment near Bangtao Beach - Kamala Beach vacation rentals
+00022.jsonl.gz-5458385,thailand,1,"Pattaya, Apartment - 61 sq.m.; Sale price - 5.600.000 THB; Dusit Grand Park 2"
+00028.jsonl.gz-5682900,thailand,1,"beautiful Thailand - The View luxury apartment, holiday home, vacation rental"
+00095.jsonl.gz-8170529,thailand,1,"Facade of highrise apartment block with balconies. Electric lights in some windows. Housing in Bangkok, Thailand"
+00070.jsonl.gz-2566875,thailand,1,Piri Property Agency's Spacious Apartment in Phrom Phong - 2 Bedrooms with 160 SQM 2
+00033.jsonl.gz-7769287,thailand,1,Balcony at Palm Leaf Apartment in Mae Phim
+00075.jsonl.gz-9165540,thailand,1,"Studio Apartment in Thailand, photo"
+00017.jsonl.gz-9517302,thailand,1,"Studio Apartment in Thailand, photo"
+00115.jsonl.gz-17298291,thailand,1,"2 Bedrooms Apartment for sale in Choeng Thale, Phuket Lotus Gardens"
+00126.jsonl.gz-17025823,thailand,1,Brand new apartment for RENT near Thai consulate
+00020.jsonl.gz-2318963,australia,1,"706/2 Jones Bay Road, Pyrmont 2009, NSW Apartment Photo"
+00030.jsonl.gz-8327558,australia,1,"301/9-13 O'connell Street, North Melbourne 3051, VIC Apartment Photo"
+00083.jsonl.gz-428699,australia,1,"Apartment - Bardon 4065, QLD"
+00082.jsonl.gz-12276243,australia,1,"Second view of Homely apartment listing, 1903/1A Morton Street, Parramatta NSW 2150"
+00041.jsonl.gz-7801041,australia,1,"Second view of Homely apartment listing, 507/5 Caravel Lane, Docklands VIC 3008"
+00001.jsonl.gz-1791856,australia,1,"301/7 Magdalene Terrace, Wolli Creek 2205, NSW Apartment Photo"
+00073.jsonl.gz-9661008,australia,1,The Aparthotel Cremorne Apartment complex on Punt Road was listed as a tier-2 exposure site on Friday.
+00038.jsonl.gz-1462504,australia,1,"Main view of Homely apartment listing, 1105/31 A'Beckett Street, Melbourne VIC 3000"
+00001.jsonl.gz-2184346,australia,1,"Sixth view of Homely apartment listing, 4/239 Military Road, Cremorne NSW 2090"
+00030.jsonl.gz-11071211,australia,1,Punthill Apartment Hotels - Oakleigh - Accommodation Georgetown
+00068.jsonl.gz-1982423,australia,1,"Sixth view of Homely apartment listing, 203B/.42-50 Brickworks Drive, Holroyd NSW 2142"
+00101.jsonl.gz-15792349,australia,1,"""Three minimalist but striking 'Moni Triple Pendant' from Articolo Lighting hang in a [luxury apartment in St Kilda](https://www.homestolove.com.au/luxury-accommodation-in-st-kilda-boasts-timeless-aesthetic-20382|target=""""_blank""""), Melbourne, which has been masterfully revamped by stylist studio The Specified."""
+00021.jsonl.gz-9052310,australia,1,"G01/7 Rugby Road, Hughesdale 3166, VIC Apartment Photo"
+00117.jsonl.gz-10179972,australia,1,Adrian Amore Architects - Loft apartment in West Melbourne
+00030.jsonl.gz-11845201,australia,1,"Where will he go next? The 33-year-old's mother sold the Malabar property in order to downsize, leaving Braith 'homeless' after moving out from the Coogee apartment he shared with Jodi"
+00061.jsonl.gz-4989709,australia,1,Caloundra Central Apartment Hotel
+00108.jsonl.gz-16273387,australia,1,"2102/167-179 Alfred Street, Fortitude Valley 4006, QLD Apartment Photo"
+00028.jsonl.gz-986282,australia,1,Harold Park  - Top Floor Apartment with North Facing Balcony
+00018.jsonl.gz-15048371,australia,1,Spacious apartment - Nth Parramatta - North Parramatta - Lejlighed
+00061.jsonl.gz-16186483,australia,1,"Bright 3-bedroom apartment - Central Armidale, holiday rental in Armidale"
+00069.jsonl.gz-18051749,australia,1,Renovated Art Deco Studio Apartment - Rushcutters Bay
+00122.jsonl.gz-3926388,australia,1,"24/23-25 Mayberry Crescent, Liverpool 2170, NSW Apartment Photo"
+00082.jsonl.gz-8546040,australia,1,Promenade Penthouse Apartment - QLD Tourism
+00047.jsonl.gz-1214649,australia,1,"909/12 Queens Road, Melbourne 3004, VIC Apartment Photo"
+00032.jsonl.gz-8300269,australia,1,"Sixth view of Homely apartment listing, 203/6-9 Cowper Wharf Road, Woolloomooloo NSW 2011"
